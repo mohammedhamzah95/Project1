@@ -1,10 +1,10 @@
 const form = document.getElementById('signupForm');
-const signupSection = document.querySelector('section#signupSection');
-
 let thankYouMessageDisplayed = false;
 
 form.addEventListener('submit', (event) => {
-  event.preventDefault(); // Prevents the default form submission behavior
+  event.preventDefault(); 
+
+  const signupSection = document.getElementById('signupSection');
 
   // Check if the thank-you message is already displayed
   if (!thankYouMessageDisplayed) {
@@ -17,10 +17,12 @@ form.addEventListener('submit', (event) => {
     thankYouMessage.classList.add('thankYouMessage');
     form.parentNode.appendChild(thankYouMessage);
     thankYouMessage.classList.add('visible');
-    
+
     thankYouMessageDisplayed = true;
 
-    // Hide the signup section
-    signupSection.classList.add('hidden');
+    // Hide the signup section if found
+    if (signupSection) {
+      signupSection.classList.add('hidden');
+    }
   }
 });
