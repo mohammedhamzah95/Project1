@@ -69,7 +69,7 @@ button:hover {
 }
 
 /* Thank You Message */
-.thankYouMessage {
+..thankYouMessage {
   padding: 20px;
   background-color: #3498db;
   color: #fff;
@@ -77,16 +77,11 @@ button:hover {
   margin-top: 20px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
-
-  /* Center the thank-you message */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   max-width: 400px;
+  margin: 20% auto; /* Adjust the top margin to center vertically */
 }
 
 .thankYouMessage.visible {
   opacity: 1;
 }
+
