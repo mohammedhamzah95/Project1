@@ -78,7 +78,7 @@ button:hover {
   transition: opacity 0.5s ease-in-out;
   max-width: 400px;
   position: fixed;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -86,4 +86,5 @@ button:hover {
 .thankYouMessage.visible {
   opacity: 1;
 }
+
 
