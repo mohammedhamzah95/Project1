@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Reach New Heights: Mountain Climbing Club - Join Now</title>
-  <link rel="stylesheet" href="css/meyer-reset-normalize-form.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="path/to/reset.css">
+  <link rel="stylesheet" href="path/to/styles.css">
 </head>
 <body>
   <div class="container">
@@ -48,22 +48,6 @@
     </main>
   </div>
 
-  <div id="thankYouMessage" class="hidden">
-    <h2>Thank You for Joining Reach New Heights: Mountain Climbing Club!</h2>
-    <p>You are now part of our mountain-climbing community. Get ready to conquer peaks and embrace the adventure!</p>
-  </div>
-
-  <script>
-    const form = document.getElementById('signupForm');
-    const thankYouMessage = document.getElementById('thankYouMessage');
-
-    form.addEventListener('submit', (event) => {
-      event.preventDefault(); 
-
-      // Display the thank-you message
-      form.style.display = 'none';
-      thankYouMessage.classList.remove('hidden');
-    });
-  </script>
+  <script src="js/site.js"></script>
 </body>
 </html>
