@@ -18,10 +18,3 @@ form.addEventListener('submit', (event) => {
     thankYouMessage.classList.add('visible');
 
     thankYouMessageDisplayed = true;
-
-    // Set display property to 'none' for the signup section
-    if (signupSection) {
-      signupSection.style.display = 'none';
-    }
-  }
-});
