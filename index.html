@@ -58,10 +58,10 @@
     const thankYouMessage = document.getElementById('thankYouMessage');
 
     form.addEventListener('submit', (event) => {
-      event.preventDefault(); // Prevents the default form submission behavior
+      event.preventDefault(); 
 
       // Display the thank-you message
-      form.classList.add('hidden');
+      form.style.display = 'none';
       thankYouMessage.classList.remove('hidden');
     });
   </script>
