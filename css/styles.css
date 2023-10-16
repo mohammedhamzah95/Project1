@@ -68,17 +68,19 @@ button:hover {
   background-color: #2980b9;
 }
 
-/* Thank You Message */
-..thankYouMessage {
+/*Thank you message*/
+.thankYouMessage {
   padding: 20px;
   background-color: #3498db;
   color: #fff;
   border-radius: 5px;
-  margin-top: 20px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
   max-width: 400px;
-  margin: 20% auto; /* Adjust the top margin to center vertically */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .thankYouMessage.visible {
