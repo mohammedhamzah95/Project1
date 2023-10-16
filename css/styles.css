@@ -74,13 +74,19 @@ button:hover {
   background-color: #3498db;
   color: #fff;
   border-radius: 5px;
-  margin: 20px auto; /* Adjust margin to center horizontally */
+  margin-top: 20px;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
-  max-width: 400px; /* Set a maximum width for the message */
+
+  /* Center the thank-you message */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 400px;
 }
 
 .thankYouMessage.visible {
   opacity: 1;
 }
-
