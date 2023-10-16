@@ -1,10 +1,9 @@
 const form = document.getElementById('signupForm');
+const signupSection = document.getElementById('signupSection');
 let thankYouMessageDisplayed = false;
 
 form.addEventListener('submit', (event) => {
-  event.preventDefault(); 
-
-  const signupSection = document.getElementById('signupSection');
+  event.preventDefault(); // Prevents the default form submission behavior
 
   // Check if the thank-you message is already displayed
   if (!thankYouMessageDisplayed) {
