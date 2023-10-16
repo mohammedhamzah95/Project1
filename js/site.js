@@ -1,4 +1,6 @@
 const form = document.getElementById('signupForm');
+const signupSection = document.querySelector('section#signupSection');
+
 let thankYouMessageDisplayed = false;
 
 form.addEventListener('submit', (event) => {
@@ -17,5 +19,8 @@ form.addEventListener('submit', (event) => {
     thankYouMessage.classList.add('visible');
     
     thankYouMessageDisplayed = true;
+
+    // Hide the signup section
+    signupSection.classList.add('hidden');
   }
 });
