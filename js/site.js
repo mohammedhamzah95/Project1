@@ -19,9 +19,9 @@ form.addEventListener('submit', (event) => {
 
     thankYouMessageDisplayed = true;
 
-    // Hide the signup section if found
+    // Set display property to 'none' for the signup section
     if (signupSection) {
-      signupSection.classList.add('hidden');
+      signupSection.style.display = 'none';
     }
   }
 });
