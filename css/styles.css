@@ -88,15 +88,28 @@ button:hover {
 
 @media (max-width: 767px) {
   body {
-    font-size: 14px; 
+    font-size: 16px; 
   }
-
   h1 {
     font-size: 24px; 
+  }
+  p {
+    font-size: 14px; 
+  }
+  button {
+    padding: 10px 16px;
+  }
+  label {
+    margin-bottom: 8px;
   }
   img {
     max-width: 100%;
     height: auto;
+  }
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
   }
 }
 
@@ -106,6 +119,21 @@ button:hover {
   }
   h1 {
     font-size: 36px; 
+  }
+  p {
+    font-size: 16px; 
+  }
+
+  button {
+    padding: 12px 20px;
+  }
+  label {
+    margin-bottom: 12px;
+  }
+  input, select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
   }
 }
 
