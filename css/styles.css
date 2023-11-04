@@ -90,11 +90,9 @@ button:hover {
   body {
     font-size: 14px; 
   }
+
   h1 {
     font-size: 24px; 
-  }
-  .container {
-    padding: 10px;
   }
   img {
     max-width: 100%;
@@ -108,12 +106,6 @@ button:hover {
   }
   h1 {
     font-size: 36px; 
-  .container {
-    max-width: 1200px; 
-    margin: 0 auto; 
-  }
-  .background-image {
-    background-image: url('large-screen-background.jpg');
   }
 }
 
