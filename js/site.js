@@ -10,4 +10,4 @@ form.addEventListener('submit', (event) => {
   } else {
     alert('Thank you for joining Reach New Heights: Mountain Climbing Club! We look forward to meeting you!');
   }
-};
+});
